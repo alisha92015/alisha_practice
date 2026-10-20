@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="play_way">
+        <img src="images /1.jpg" alt="" class="play_img">
+        <h3 class="play">2-3 YEARS</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium officiis odio qui error optio eum
+            doloremque obcaecati maxime dolore aperiam dolor, nihil animi voluptatem. Suscipit labore eveniet quia
+            quisquam laboriosam.</p>
+    </div>
+    <div class="nursery_way">
+        <img src="images /55.jpg" alt="" class="nursery_img">
+        <h3 class="nur">3-4 YEARS</h3>
+        <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe voluptatem, nobis nostrum
+            quos eaque aliquam,
+            tempore repellat commodi repellendus cupiditate amet magni nulla necessitatibus, autem maxime aperiam
+            corporis. Voluptatibus, laborum.</p>
+    </div>
+    <div class="kg_way">
+        <img src="images /55.jpg" alt="" class="kg_img">
+        <h3 class="junior">4-5 YEARS</h3>
+        <p class="paragraph_2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt error aperiam quod
+            placeat velit dolorum
+            quis modi harum. Neque, exercitationem. Temporibus eius eaque eligendi veritatis cupiditate molestias
+            reiciendis minus error!</p>
+    </div>
+    <div class="senior">
+        <img src="images /50.jpeg" alt="" class="kg_img">
+        <h3 class="title">2-3YEARS </h3>
+        <P CLASS="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque assumenda consectetur
+            repellendus aliquid dolorem optio cumque eos, voluptate architecto cupiditate voluptas pariatur earum, at
+            laborum facere, quaerat rerum quidem debitis?</P>
+        <div class="nursey">
+            <img src="images /33.jpeg" alt="" class="nur_image">
+            <h3 class="nur_way">3-4 YEARS</h3>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sed et, quas quis
+                officiis corrupti, saepe quam explicabo molestiae non, incidunt veniam voluptatum hic odio ipsum
+                eligendi harum illo iure!</p>
+
+        </div>
+
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+
+</html>

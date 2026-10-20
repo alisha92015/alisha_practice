@@ -1,0 +1,244 @@
+.play_way {
+    height: 500px;
+    width: 30%;
+    background-color: rgb(69, 66, 66);
+}
+
+.play_img {
+    height: 300px;
+    width: 91%;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.play {
+    text-align: center;
+    background-color: orange;
+    width: 50%;
+    margin-left: 100px;
+    padding: 10px;
+    border-radius: 148px;
+    color: white;
+}
+
+.nursery_way {
+    height: 500px;
+    width: 100%;
+    background-color: rgb(218, 135, 135);
+    margin-left: 10px;
+
+}
+
+.nursery_img {
+    text-align: center;
+    background-color: rgb(91, 128, 196);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 300px;
+    width: 91%;
+}
+
+.nur {
+    text-align: center;
+    background-color: burlywood;
+    width: 50%;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white
+}
+
+.paragraph {
+    padding-left: 20px;
+    color: aliceblue;
+}
+
+.paragraph_2 {
+    margin-left: 20px;
+}
+
+.kg_way {
+    height: 500px;
+    width: 30%;
+    background-color: cyan;
+    background-color: 20px;
+    margin-left: 20px
+}
+
+.kg_img {
+    text-align: center;
+    background-color: dimgray;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 10px;
+}
+
+.junior {
+    text-align: center;
+    background-color: darkorange;
+    width: 50%;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: yellow
+}
+
+div {
+    float: left;
+}
+
+.senior {
+    background-color: coral;
+    height: 500PX;
+    width: 30%;
+}
+
+.kg_img {
+    height: 10px;
+    width: 91%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.title {
+    height: 20px;
+    background-color: chartreuse;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.paragraph {
+    padding-left: 20px;
+    color: black
+}
+
+.nursery_way {
+    background-color: cornflowerblue;
+    height: 500px;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nursery_img {
+    height: 300px;
+    width: 91%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.kg_way {
+    height: 500px;
+    width: 30%;
+    background-color: rgb(39, 39, 31);
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.kg_img {
+    height: 300px;
+    width: 91%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: aquamarine;
+}
+
+.junior {
+    text-align: center;
+    background-color: antiquewhite;
+    height: 20px;
+    width: 30%;
+    margin-left: 133px;
+}
+
+div {
+    float: left
+}
+
+.a {
+    height: 500px;
+    width: 30%;
+    background-color: aquamarine;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20p;
+}
+
+.l_img {
+    height: 300px;
+    width: 91%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: beige;
+}
+
+.i {
+    text-align: center;
+    background-color: brown;
+    height: 20px;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.s {
+    padding-left: 20px;
+    color: black;
+}
+
+div {
+    float: left ̦
+}
+
+.h {
+    height: 500px;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: chocolate;
+}
+
+.t_img {
+    height: 300px;
+    width: 91%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: bisque;
+}
+
+.heading {
+    text-align: center;
+    background-color: cornflowerblue;
+    height: 30px;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.para_5 {
+    padding-left: 20px;
+    color: black;
+}
+
+div {
+    float: left
+}

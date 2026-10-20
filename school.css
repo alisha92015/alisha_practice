@@ -1,0 +1,218 @@
+.school {
+    height: 150px;
+    width: 100%;
+    background-color: rgb(6, 82, 6);
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.school_img {
+    height: 150px;
+    width: 34%;
+    background-color: rgb(6, 82, 6);
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.title {
+    color: white;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.my-school {
+    color: rgb(255, 255, 255);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2,
+p {
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(41, 33, 23);
+}
+
+ul li {
+    float: left;
+    background-color: rgb(238, 191, 141);
+}
+
+ul li a {
+    display: block;
+    color: rgb(4, 105, 40);
+    padding: 15px 100px;
+    text-decoration: none;
+    background-color: rgb(186, 248, 227);
+    text-align: center;
+    margin-left: 100px;
+}
+
+ul li a:hover {
+    background-color: rgb(59, 171, 107)
+}
+
+.welcoming {
+    background-color: rgb(245, 198, 136);
+    width: 100%;
+}
+
+.kids_img {
+    height: 150px;
+    width: 25%;
+    margin-left: 1000px;
+    margin-top: 70px;
+}
+
+.welcome {
+    color: rgb(63, 41, 42);
+    margin-bottom: 10px;
+}
+
+.book {
+    height: 300px;
+    width: 22%;
+    background-color: rgb(187, 243, 198);
+}
+
+.book_img {
+    height: 200px;
+    width: 96%;
+}
+
+.library {
+    color: rgb(49, 104, 63);
+    text-align: center;
+    padding-left: 20px;
+}
+
+.world {
+    text-align: center;
+    font-size: 30px;
+}
+
+.computer {
+    height: 300px;
+    width: 22%;
+    background-color: rgb(92, 134, 249);
+}
+
+.comp_img {
+    height: 180px;
+    width: 76%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.comp_lab {
+    text-align: center;
+    color: rgb(235, 235, 255)
+}
+
+.tech {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+div {
+    float: left
+}
+
+.trophy {
+    height: 300px;
+    width: 22%;
+    background-color: rgb(242, 157, 157);
+}
+
+.trophy_img {
+    height: 200px;
+    width: 60%;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+
+.sports {
+    text-align: center;
+    color: brown;
+}
+
+.grow {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 80px;
+    ;
+}
+
+div {
+    float: left
+}
+
+.science {
+    width: 30%;
+    background-color: rgb(213, 168, 255);
+    height: 300px;
+}
+
+.chem_img {
+    height: 200px;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.science-lab {
+    text-align: center;
+    color: blueviolet;
+}
+
+.explore {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+.challange {
+    height: 400px;
+    width: 50%;
+    background-color: rgb(175, 217, 239);
+}
+
+.c {
+    text-align: center;
+    color: blue
+}
+
+.objective {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.requirements {
+    color: blue
+}
+
+.rules {
+    height: 400px;
+    width: 45%;
+    background-color: rgb(175, 217, 239);
+}
+
+.bonus {
+    height: 200px;
+    width: 60%;
+    background-color: aqua;
